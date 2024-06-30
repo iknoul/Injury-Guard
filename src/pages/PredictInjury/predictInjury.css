@@ -1,0 +1,50 @@
+.pi-second {
+  height: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pi-second img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  filter: brightness(45%);
+  position: relative;
+  z-index: 1;
+}
+
+.pi-second h1 {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+
+.pi-third-injury-form {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  width: 600px;
+  margin: 0 250px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: end;
+}
+
+.radio-button {
+  display: flex;
+  gap: 10px;
+}
+.okButton {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  border: 2px solid rgb(79, 79, 79);
+  padding: 9px 16px;
+  border-radius: 5px;
+  position: relative;
+  bottom: -20px;
+  right: 100px;
+}
